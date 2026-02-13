@@ -10,7 +10,7 @@ Easy to use frontend for selecting multiple versions of EaglerCraft. Recommended
 
 - [x] Dark mode
 
-- [ ] 1.5.2 support
+- [x] 1.5.2 support
 
 - [ ] Other stuff
 
