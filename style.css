@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+p {
+    font-size: 12px;
+}
+
+a {
+    color: #000000;
+    padding: 8px;
+}
+
+.options {
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+}
+
+.branding {
+    text-align: center;
+}
+
+.selection {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.make-it-dark {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.make-it-dark a {
+    color: #FFFFFF;
+}

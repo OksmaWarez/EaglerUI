@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>EaglerUI</title>
+</head>
+<body>
+    <div class="container">
+        <div class="branding">
+            <h1>EaglerUI</h1>
+            <p>A custom user interface for Minecraft.</p>
+            <a href="https://github.com/OksmaWarez/EaglerUI">View on GitHub</a>
+        </div>
+        <div class="selection">
+            <a href="1.12.2/index.html">EaglercraftX 1.12.2</a>
+            <a href="1.8.9/index.html">EaglercraftX 1.8.9</a>
+            <!--<a href="1.5.2/index.html">Eaglercraft 1.5.2</a> todo: re-add when I care enough about 1.5.2 -->
+        </div>
+        <div class="options">
+            <input type="checkbox" id="wasmToggle" onclick="wasm()">
+            <label for="wasmToggle">Enable WASM?</label>
+            <input type="checkbox" id="darkModeToggle" onclick="dark()">
+            <label for="darkModeToggle">Enable Dark Mode?</label>
+        </div>
+    </div>
+</body>
+</html>
